@@ -8,32 +8,38 @@ using namespace std;
 
 
 
-/*int main()
+int main()
 {
-//SWektor<LZespolona,ROZMIAR> W1(11,11,11);
-SWektor<LZespolona,ROZMIAR> W2;
+
 
     LZespolona l1;
     LZespolona l2;
     LZespolona l3;
 
-*//*SMacierz<double, ROZMIAR> M1(W1,W2,W3);
-SMacierz<double, ROZMIAR> M2(W1,W2,W3);
-    SMacierz<double, ROZMIAR> M3;*//*
-
-LZespolona L1(5,4);
-LZespolona L2(1,2);
-LZespolona L3(9,6);
-
-    SWektor<LZespolona,ROZMIAR> W3(L1,L2,L3);
-    SWektor<LZespolona,ROZMIAR> W4(L1, L2, L3);
+    //SWektor<LZespolona,ROZMIAR> W3(L1,L2,L3);
+    SWektor<LZespolona,ROZMIAR> W1(l1, l2, l3);
+    SWektor<LZespolona,ROZMIAR> W2(LZespolona l4,LZespolona l5,LZespolona l6);
     cout << endl << "Start programu " << endl << endl;
-    cout << W2<< endl;
-    cout << W4+W3<< endl;
-    W3=W2;
-    cout << W3;*/
+    cout << l1<< endl;
+    cout << l2<< endl;
+    cout << l3<< endl;
+    cout << W1<< endl;
+    cout << W2<< endl; //wyswitla 1 dlaczego??
 
-    void Test_SzablonWektor_double()
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    void Test_SzablonWektor_double()
     {
         cout << endl
              << " --------- Test klasy Wektor<double," << ROZMIAR << "> ----------" << endl
@@ -92,7 +98,7 @@ LZespolona L3(9,6);
     {
         Test_SzablonWektor_double();
         Test_SzablonWektor_LZespolona();
-    }
+    }*/
 
 
 /*  UkladRownanLiniowych   UklRown;
@@ -112,10 +118,10 @@ LZespolona L3(9,6);
     cout << "Dlugosc wektora bledu: ||Ax-b|| = " << Wbledu.dlugosc();*/
 
 
-/*
+
    return 0;
 }
-*/
+
 
 
 
